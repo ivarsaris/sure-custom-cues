@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------background picture------------------------*/
+
+.bg {
+  min-height: 100%;
+  opacity: 0.2;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*--------------------------------background colours------------------------*/
+
+.bg-color-contactinfo {
+    background-color: #000000;
+}
+
+/*--------------------------------text colours------------------------*/
+
+.contactinfo-items {
+    color: #fafafa;
+}
+
+/*--------------------------------header------------------------*/
+
+.contactinfo-bar {
+    height: 20px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 200;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.navbar {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+
+.logo img {
+    height: 20%;
+    width: 20%;
+    display: block;
+}
+
+#title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*--------------------------------main ------------------------*/
+
+.main-heading {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #74A919;
+    margin-top: 50px;
+}
+
+.main-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+/*--------------------------------custom ------------------------*/
+
+.title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    color: #74A919;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.custom-cues-for-sale {
+    margin-left: 5%;
+    
+}
+
+.custom-cue-for-sale {
+    display: block;
+    height: 150px;
+    width: auto;
+}
+
+.cue-name-and-description {
+    float: right;
+}
+
+.gallery {
+    margin-left: 5%
+}
+
+.gallery a img {
+    margin-top: 20px;
+    margin-right: 10px;
+    float: left;
+    height: 200px;
+    width: auto;
+}
+
