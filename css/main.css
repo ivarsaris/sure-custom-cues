@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------background picture------------------------*/
+
+.bg {
+  min-height: 100%;
+  opacity: 0.2;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*--------------------------------header------------------------*/
+
+.contactinfo-bar {
+    height: 20px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 200;
+    margin-bottom: 10px;
+    display: inline-block;
+}
