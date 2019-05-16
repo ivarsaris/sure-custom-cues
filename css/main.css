@@ -12,6 +12,18 @@
   left: 0;
 }
 
+/*--------------------------------background colours------------------------*/
+
+.bg-color-contactinfo {
+    background-color: #000000;
+}
+
+/*--------------------------------text colours------------------------*/
+
+.contactinfo-items {
+    color: #fafafa;
+}
+
 /*--------------------------------header------------------------*/
 
 .contactinfo-bar {
@@ -21,4 +33,47 @@
     font-weight: 200;
     margin-bottom: 10px;
     display: inline-block;
+}
+
+.navbar {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+
+.logo img {
+    height: 20%;
+    width: 20%;
+    display: block;
+}
+
+#title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*--------------------------------main ------------------------*/
+
+.main-heading {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #74A919;
+    margin-top: 50px;
+}
+
+.main-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
