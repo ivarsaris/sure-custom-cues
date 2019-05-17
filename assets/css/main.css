@@ -10,6 +10,8 @@
   position: fixed;
   top: 0;
   left: 0;
+  vertical-align: baseline;
+  background: #000000;
 }
 
 /*--------------------------------background colours------------------------*/
@@ -35,6 +37,16 @@
     display: inline-block;
 }
 
+.contactinfo-items a {
+    color: #fafafa;
+}
+
+.page-language {
+    text-align: right;
+    display: inline-block;
+    
+}
+
 .navbar {
     text-align: center;
     font-family: 'Roboto';
@@ -47,13 +59,8 @@
     display: block;
 }
 
-#title {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 30px;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.header {
+    margin-left: 50%;
 }
 
 /*--------------------------------main ------------------------*/
