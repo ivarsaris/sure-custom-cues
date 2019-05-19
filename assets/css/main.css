@@ -135,6 +135,30 @@
     color: #595959;
 }
 
+/*------------------------------------content all pages--------------------------------*/
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 400;
+    color: #74A919;
+    margin: 10px;
+}
+
+.paragraph {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin: 10px;
+}
+
+
 /*------------------------------------main--------------------------------*/
 
 .main-heading {
@@ -170,6 +194,32 @@
 .fling-minislide img:nth-child(3){animation-delay:5s;}
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;}
+
+/*--------------------------------about ------------------------*/
+
+
+
+/*--------------------------------innovations ------------------------*/
+
+.media {
+    height: 100px;
+    width: auto;
+}
+
+.shafts {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin: 10px;
+}
+
+.shaft-description {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
 
 /*--------------------------------custom ------------------------*/
 
@@ -208,12 +258,5 @@
     margin-right: 10px;
     float: left;
     height: 200px;
-    width: auto;
-}
-
-/*--------------------------------innovations ------------------------*/
-
-.media {
-    height: 100px;
     width: auto;
 }
