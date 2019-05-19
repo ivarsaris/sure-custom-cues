@@ -19,7 +19,9 @@
     background-color: #000000;
 }
 
-/*--------------------------------header------------------------*/
+/*------------------------------------header--------------------------------*/
+/*-----------------------contactinfo bar ------------------------*/
+
 
 .contactinfo-bar {
     height: 80px;
@@ -48,28 +50,24 @@
     font-size: 26px;
 }
 
-.logo-and-title-items {
-    display: inline-block;
-}
+/*-----------------------title ------------------------*/
 
-.logo img {
-    height: 20%;
-    width: 20%;
-    display: block;
-}
-
-.title {
+.header {
     font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 30px;
-    color: #74A919;
-    float: right;
+    font-weight: 600;
+    font-size: 40px;
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    color: #74A919;
+    padding-left: 10%;
 }
 
-/*--------------------------------main ------------------------*/
+.header img {
+    width: 10%;
+    min-width: 100px;
+    height: auto;
+}
+
+/*-----------------------navbar ------------------------*/
 
 .navbar {
     text-align: center;
@@ -137,9 +135,7 @@
     color: #595959;
 }
 
-
-
-/*--------------------------------main ------------------------*/
+/*------------------------------------main--------------------------------*/
 
 .main-heading {
     font-family: 'Roboto';
@@ -150,16 +146,30 @@
     margin-top: 50px;
 }
 
-.main-text {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 40px;
-    text-align: center;
-    color: #000000;
-    margin-top: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+/*-----------------------slideshow ------------------------*/
+
+
+.fling-minislide {
+    width: 100%; 
+    height: 0px; 
+    padding-bottom: 50%;
+    overflow: hidden; 
+    position: relative;
 }
+
+.fling-minislide img{ 
+    position:absolute; 
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
 
 /*--------------------------------custom ------------------------*/
 
