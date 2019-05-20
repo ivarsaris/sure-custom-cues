@@ -201,9 +201,10 @@
 
 /*--------------------------------innovations ------------------------*/
 
-.media {
-    height: 100px;
+.media img {
+    height: 200px;
     width: auto;
+    margin: 10px;
 }
 
 .shafts {
@@ -249,14 +250,18 @@
     float: right;
 }
 
-.gallery {
-    margin-left: 5%
+.gallery img {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    height: 180px;
+    width: auto;
 }
 
-.gallery a img {
-    margin-top: 20px;
-    margin-right: 10px;
-    float: left;
-    height: 200px;
-    width: auto;
+.break-jump-tip {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin: 10px;
 }
