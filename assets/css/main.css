@@ -24,7 +24,7 @@
 
 
 .contactinfo-bar {
-    height: 80px;
+    height: 60px;
     text-align: left;
     font-family: 'Roboto';
     font-weight: 200;
@@ -48,6 +48,8 @@
 
 .contactinfo-items .page-language a {
     font-size: 26px;
+    display: inline-block
+    text-align: right;
 }
 
 /*-----------------------title ------------------------*/
