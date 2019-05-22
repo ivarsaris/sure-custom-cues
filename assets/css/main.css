@@ -48,7 +48,7 @@
 
 .contactinfo-items .page-language a {
     font-size: 26px;
-    display: inline-block
+    display: inline-block;
     text-align: right;
 }
 
@@ -224,6 +224,11 @@
     color: black;
 }
 
+#link-to-top {
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 10px;
+}
 /*--------------------------------custom ------------------------*/
 
 .description {
