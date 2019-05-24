@@ -277,6 +277,14 @@ body {
     text-decoration: none;
 }
 
+.break-jump-tip {
+    font-family: 'Roboto';
+    color: #d3d3d3;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px;
+}
+
 /*--------------------------------custom ------------------------*/
 
 .description {
@@ -303,6 +311,10 @@ body {
     float: right;
 }
 
+.cue-name {
+    color: #d3d3d3;
+}
+
 .gallery img {
     margin-top: 20px;
     margin-left: 10px;
@@ -311,12 +323,8 @@ body {
     width: auto;
 }
 
-.break-jump-tip {
-    font-family: 'Roboto';
-    color: #d3d3d3;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 10px;
+.gallery img:hover {
+    height: 360px;
 }
 
 /*--------------------------------media ------------------------*/
