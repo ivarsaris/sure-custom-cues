@@ -2,16 +2,15 @@
 
 /*--------------------------------background picture------------------------*/
 
-.bg {
-  min-height: 100%;
-  opacity: 0.2;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  vertical-align: baseline;
+body {
+  background: url(/assets/images/gallery5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #f5f5f5;
 }
+
 
 /*--------------------------------background colours------------------------*/
 
@@ -35,6 +34,7 @@
 .contactinfo-items {
     margin-top: 10px;
     color: #fafafa;
+    float: left;
 }
 
 .contactinfo-items i {
@@ -45,8 +45,10 @@
 .contactinfo-items a {
     color: inherit;
 }
-
-.contactinfo-items .page-language a {
+.page-language {
+    float: right;
+}
+.page-language a {
     font-size: 26px;
     display: inline-block;
     text-align: right;
@@ -156,7 +158,6 @@
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 300;
-    color: black;
     margin: 10px;
 }
 
@@ -174,6 +175,12 @@
 
 /*-----------------------slideshow ------------------------*/
 
+.wrapper-fling-minislide {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 100px;
+    border: 1px solid #666;
+}
 
 .fling-minislide {
     width: 100%; 
