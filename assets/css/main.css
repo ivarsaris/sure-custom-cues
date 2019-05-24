@@ -298,7 +298,6 @@ body {
 
 .custom-cues-for-sale {
     margin-left: 5%;
-
 }
 
 .custom-cue-for-sale {
@@ -315,16 +314,33 @@ body {
     color: #d3d3d3;
 }
 
+.slider {
+    height: 180px;
+    width: 240px;
+    position: relative;
+}
+
+.slider ul {
+    height: 180px;
+    width: 240px;
+    position: relative;
+    list-style: none outside none;
+    overflow: hidden;
+}
+
 .gallery img {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     float: left;
     height: 180px;
-    width: auto;
+    width: 240px;
+    transition: .3s ease-out;
 }
 
 .gallery img:hover {
-    height: 360px;
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
 }
 
 /*--------------------------------media ------------------------*/
