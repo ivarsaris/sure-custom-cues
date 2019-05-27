@@ -12,29 +12,44 @@
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
         <!--  top bar  -->
-        <div class="container-fluid contactinfo-bar bg-color-contactinfo">
-            <div class='contactinfo-items'>
-                <i class="fas fa-phone" aria-hidden='true'></i>
-                <span>+49 1234567</span>
-                <i class="far fa-envelope" aria-hidden='true'></i>
-                <span>example@sure.com</span>
-                <a href='https://www.facebook.com/SureCustomCues/'><i class="fab fa-facebook-square"></i></a>
-                <a href='https://www.instagram.com/surecustomcues/'><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="page-language">
-                <a href='index.html'><span>EN /</span></a>
-                <a href='index.html'><span>DE</span></a>
+        <div class="row no-gutter">
+            <div class="col contactinfo-bar bg-color-contactinfo">
+                <div class="row">
+                    <div class="col-8 contactinfo-items">
+                        <div class="row">
+                            <div class="col-12 col-sm-5">
+                                <i class="fas fa-phone" aria-hidden='true'></i>
+                                <span>+49 1234567</span>
+                            </div>
+                            <div class="col-12 col-sm-7">
+                                <i class="far fa-envelope" aria-hidden='true'></i>
+                                <span>example@sure.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 contactinfo-links">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <a href='https://www.facebook.com/SureCustomCues/'><i class="fab fa-facebook-square"></i></a>
+                                <a href='https://www.instagram.com/surecustomcues/'><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <a href='index.html'><span>EN</span></a>
+                                <span> / </span>
+                                <a href='index.html'><span>DE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- logo and title  -->
-        <div class="container-fluid header">
-            <div class="row">
-                <div class="logo-and-title">
-                    <img src="assets/images/spp222-removebg.png" alt="Logo" />
-                    <span class='title'>Sure custom cues</span>
-                </div>
+        <div class="row">
+            <div class="col logo-and-title">
+                <img src="assets/images/spp222-removebg.png" alt="Logo" />
+                <span>Sure custom cues</span>
             </div>
         </div>
         <!--  navigation menu  -->
@@ -51,6 +66,8 @@
                     <a href='innovations.html#sure-wraps'>Surewraps</a>
                     <a href='innovations.html#break-jump-tips'>Break/jump tips</a>
                 </div>
+            </div>
+            </div>
             </div>
             <a href='custom.html' class='navigation-link'>Custom cues</a>
         </nav>
