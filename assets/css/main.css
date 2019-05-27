@@ -64,7 +64,8 @@ body {
 
 @media (max-width: 576px) {
     .contactinfo-items {
-        margin-top: 5px;
+        margin-top: 7px;
+        font-size: 14px;
     }
     .contactinfo-links {
         margin-top: 5px;
@@ -91,7 +92,7 @@ body {
 
 @media (max-width: 576px) {
     .logo-and-title {
-        padding: 0px;
+        padding: 5px;
     }
     .logo-and-title img {
         width: 60px;
@@ -257,6 +258,27 @@ body {
 
 .fling-minislide img:nth-child(1) {
     animation-delay: 15s;
+}
+
+@media (max-width: 992px) {
+    .wrapper-fling-minislide {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-fling-minislide {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper-fling-minislide {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 
 /*--------------------------------about ------------------------*/
