@@ -170,24 +170,17 @@ body {
 
 /*------------------------------------content all pages--------------------------------*/
 
-.content {
-    padding-left: 10%;
-    padding-right: 10%
-}
-
 .title {
     font-family: 'Roboto';
     font-size: 26px;
     font-weight: 400;
     color: #74A919;
-    margin: 10px;
 }
 
 .paragraph {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 300;
-    margin: 10px;
 }
 
 .spacing1 {
@@ -211,7 +204,7 @@ body {
     margin-top: 20px;
 }
 
-/*-----------------------slideshow ------------------------*/
+/*--------------slideshow --------------*/
 
 .wrapper-fling-minislide {
     width: 60%;
@@ -284,7 +277,31 @@ body {
 
 /*--------------------------------about ------------------------*/
 
+.about-image {
+    width: 220px;
+    height: 190px;
+}
+
+@media (max-width: 576px) {
+    .about-image {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image {
+        width: 140px;
+        height: auto;
+    }
+}
+
 /*--------------------------------innovations ------------------------*/
+
+.container-shafts {
+    height: 100px;
+    width: auto;
+}
 
 .media img {
     height: 200px;
@@ -333,33 +350,37 @@ body {
     margin: 10px;
 }
 
+.innovations-image {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 190px;
+}
+
+.gallery-innovations img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    height: 190px;
+    width: 220px;
+    transition: .3s ease-out;
+}
+
+.gallery-innovations img:hover {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+}
+
 /*--------------------------------custom ------------------------*/
-
-.description {
-    font-family: 'Roboto';
-    font-size: 16px;
-    text-align: left;
-    margin-top: 50px;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.custom-cues-for-sale {
-    margin-left: 5%;
-}
-
-.custom-cue-for-sale {
-    display: block;
-    height: 150px;
-    width: auto;
-}
-
-.cue-name-and-description {
-    float: right;
-}
 
 .cue-name {
     color: #d3d3d3;
+}
+
+.container-custom {
+    height: 150px;
+    width: auto;
 }
 
 .slider {
@@ -377,8 +398,8 @@ body {
 }
 
 .gallery img {
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     float: left;
     height: 180px;
     width: 240px;
