@@ -106,8 +106,8 @@ body {
     text-align: center;
     font-family: 'Roboto';
     font-weight: 400;
-    padding: 0rem;
 }
+
 
 .navigation-link {
     color: #fafafa;
@@ -130,7 +130,6 @@ body {
 .dropbtn {
     background-color: transparent;
     color: #fafafa;
-    padding: 16px;
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
@@ -166,6 +165,8 @@ body {
 .dropdown:hover .dropbtn {
     color: #D3D3D3;
 }
+
+
 
 /*------------------------------------content all pages--------------------------------*/
 
