@@ -318,14 +318,23 @@ body {
 
 /*--------------------------------about ------------------------*/
 
-@media (min-width: 576px) {
-    .row-philosophy {
-        height: 230px;
-    }
-}
+
 .about-image {
     width: 220px;
     height: 190px;
+    margin-top: 40px;
+}
+    
+@media (min-width: 768px) {
+    .row-philosophy {
+        height: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .row-philosophy {
+        height: 300px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -345,7 +354,7 @@ body {
 /*--------------------------------innovations ------------------------*/
 
 .container-shafts {
-    height: 100px;
+    height: 150px;
     width: auto;
 }
 
@@ -413,6 +422,15 @@ body {
 .break-jump-image {
     height: 190px;
     width: 160px;
+}
+
+.spc-elastic a {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+.spc-elastic a:hover {
+    color: #d3d3d3;
 }
 
 /*--------------------------------custom ------------------------*/
