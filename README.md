@@ -1,7 +1,7 @@
 
 Sure Custom Cues
 
-First milestone project; User-centric frontend development - Code Institute
+First milestone project; User-centric frontend development - Full stack software developer course - Code Institute
 
 This website is made for Sure Custom Cues, a small pool cue making business located in Cologne, Germany. The website has five pages using various technologies.
 The website includes information about the company and its history, innovations it has made as well as custom cues for sale and a gallery showcasing cues.
@@ -47,7 +47,7 @@ The following technologies were used in order to create the website;
 1. HTML; coding language used to create the content of the website
 2. CSS; coding language used to style the content
 3. Bootstrap (v4.3.1) https://getbootstrap.com/ ; CSS library used to style sections of the website.
-4. Font awesome library: https://fontawesome.com/ ; used to display the icons which link to the social media account. 
+4. Font awesome library: https://fontawesome.com/ ; used to display the copyright and social media icons.  
 
 
 
@@ -68,14 +68,10 @@ go back to the top of the page without having to scroll.
 The website has been tested on several devices and browsers. It was tested on a Dell and Microsoft laptop, an iPad, a MacBook, a Samsung S9, an Honor 10, and
 on an iPhone 7. On all devices the layout worked well. There were a few bugs when opening the website on a mobile device:
 
-1. The impressum page showed a large white space under the content. The reason for this was the size of the background image. 
-This was fixed by adding spacing to the page which would only be displayed on a
-small device. This way, there would be no unnecessary empty space while viewing on a larger device. 
-
-2. The images that increase in size became larger than the device, so a part of the image was outside the screen and not visible. This was fixed
+1. The images that increase in size became larger than the device, so a part of the image was outside the screen and not visible. This was fixed
 by adding a media query to CSS and reducing the amount the image would increase on small device.
 
-3. The drop-down menu of the innovations page is displayed when hovering over it in the navigation menu. On mobile, when clicking on the
+2. The drop-down menu of the innovations page is displayed when hovering over it in the navigation menu. On mobile, when clicking on the
 innovations link, the menu is displayed shortly, then the innovations page opens. 
 
 
