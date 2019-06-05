@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------background picture------------------------*/
+/*-- background picture --*/
 
 body {
     background: url(/assets/images/bg-dark-60.jpg) no-repeat center center fixed;
@@ -12,22 +12,19 @@ body {
     color: #f5f5f5;
 }
 
+/*------------------------------------header--------------------------------*/
 
-/*--------------------------------background colours------------------------*/
+/*-- contactinfo bar --*/
 
 .bg-color-contactinfo {
     background-color: #000000;
 }
 
-/*------------------------------------header--------------------------------*/
-
-/*-----------------------contactinfo bar ------------------------*/
-
 .contactinfo-bar {
     height: 60px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 200;
     display: inline-block;
 }
@@ -68,6 +65,13 @@ body {
     }
 }
 
+@media (min-width: 577px) and (max-width: 767px) {
+    .contactinfo-items {
+        padding-right: 0;
+        padding-left: 11px;
+    }
+}
+
 @media (min-width: 768px) {
     .contactinfo-links a i {
         margin-right: 10px;
@@ -75,12 +79,12 @@ body {
 }
 
 
-/*-----------------------title ------------------------*/
+/*-- title --*/
 
 .logo-and-title {
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     text-align: left;
     color: #74A919;
     padding-left: 5%;
@@ -101,7 +105,7 @@ body {
     }
 }
 
-/*-----------------------navbar ------------------------*/
+/*-- navbar --*/
 
 .navigation-row {
     background-color: rgba(40, 40, 40, 0.5);
@@ -117,7 +121,6 @@ body {
     width: 240px;
     padding: 10px 0;
 }
-
 
 .navigation-link {
     color: #fafafa;
@@ -170,7 +173,6 @@ body {
     text-decoration: none;
 }
 
-
 .dropdown:hover .dropdown-innovations-content {
     display: block;
 }
@@ -203,11 +205,11 @@ body {
     }
 }
 
-/*------------------------------------content all pages--------------------------------*/
+/*--------------------------content all pages--------------------------*/
 
 .title {
     font-family: 'Archivo', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 400;
     color: #74A919;
 }
@@ -230,7 +232,7 @@ body {
 
 .copyright {
     font-family: "Open Sans";
-    font-size: 10;
+    font-size: 12px;
     font-weight: 200;
     color: #f5f5f5;
 }
@@ -244,7 +246,7 @@ body {
     margin-top: 20px;
 }
 
-/*--------------slideshow --------------*/
+/*-- slideshow --*/
 
 .wrapper-fling-minislide {
     width: 60%;
@@ -315,7 +317,7 @@ body {
     }
 }
 
-/*--------------------------------about ------------------------*/
+/*-------------------------------- about ------------------------*/
 
 .about-image {
     width: 230px;
@@ -356,27 +358,8 @@ body {
     width: auto;
 }
 
-.shafts {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 10px;
-}
-
-.shaft-description {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-}
-
 .shaft-type {
     color: #d3d3d3;
-}
-
-#link-to-top {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin: 10px;
 }
 
 .anchor-link {
@@ -393,11 +376,6 @@ body {
     margin-right: 10px;
     width: 240px;
     height: 180px;
-}
-
-.break-jump-image {
-    height: 190px;
-    width: 160px;
 }
 
 .paragraph a {
@@ -432,20 +410,6 @@ li {
     width: auto;
 }
 
-.slider {
-    height: 180px;
-    width: 240px;
-    position: relative;
-}
-
-.slider ul {
-    height: 180px;
-    width: 240px;
-    position: relative;
-    list-style: none outside none;
-    overflow: hidden;
-}
-
 .gallery img {
     margin-right: 10px;
     margin-bottom: 10px;
@@ -469,7 +433,6 @@ li {
     .gallery img {
         margin-right: 10px;
         margin-bottom: 10px;
-        float: center;
         height: 180px;
         width: 240px;
         transition: .3s ease-out;
@@ -512,7 +475,6 @@ li {
 .right {
     float: right;
 }
-
 
 a,
 a:hover,
