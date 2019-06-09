@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*-- background picture --*/
+/*-- background picture, taken from https://css-tricks.com/perfect-full-page-background-image/. modified to fit page. --*/
 
 body {
     background: url(/assets/images/bg-dark-60.jpg) no-repeat center center fixed;
@@ -55,6 +55,7 @@ body {
     text-decoration: none;
 }
 
+/*-- gets contactinfo nicely on top of each other on smaller screen --*/
 @media (max-width: 576px) {
     .contactinfo-items {
         margin-top: 7px;
@@ -177,10 +178,6 @@ body {
         width: 140px;
         font-size: 13px;
     }
-    .dropdown-innovations-content {
-        width: 140px;
-        font-size: 13px;
-    }
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
@@ -208,6 +205,7 @@ body {
     text-align: justify;
 }
 
+/*-- used to add space to pages --*/
 .spacing1 {
     width: 100%;
     height: 20px;
@@ -227,6 +225,7 @@ body {
     color: #f5f5f5;
 }
 
+/* -- to make sure footer goes to bottom of screen on larger devices-- */
 @media (min-width: 768px) and (max-width: 1200px) {
     .footer {
         margin-top: 250px;
@@ -243,6 +242,8 @@ body {
 }
 
 /*-- slideshow --*/
+
+/*-- taken from https://www.hyde-design.co.uk/joomla-bites/80-create-a-css-slide, modified to fit page --*/
 
 .wrapper-fling-minislide {
     width: 60%;
@@ -292,6 +293,8 @@ body {
     animation-delay: 15s;
 }
 
+/*-- to fit smaller screens --*/
+
 @media (max-width: 991px) {
     .wrapper-fling-minislide {
         width: 70%;
@@ -321,6 +324,7 @@ body {
     margin-top: 40px;
 }
 
+/*-- to make sure history image and text are aligned --*/
 @media (min-width: 768px) {
     .row-philosophy {
         height: 350px;
@@ -333,6 +337,7 @@ body {
     }
 }
 
+/*-- so images go next to each other on smaller screen --*/
 @media (max-width: 576px) {
     .about-image {
         width: 200px;
@@ -349,6 +354,7 @@ body {
 
 /*--------------------------------innovations ------------------------*/
 
+/*-- so images are horizontally alligned on larger screens --*/
 .container-shafts {
     height: 150px;
     width: auto;
@@ -393,10 +399,9 @@ li {
 }
 
 .dealer-inquiries {
-    text-decoration: blink underline;
+    text-decoration: underline;
     font-size: 20px;
     margin-left: 5px;
-    
 }
 
 .spc-tip-name {
@@ -434,6 +439,7 @@ li {
     -o-transform: scale(1.8);
 }
 
+/*-- To make sure images are centered on smaller screens --*/
 @media (max-width: 767px) {
     .spc-tip-name {
         margin-left: 25%;
@@ -496,6 +502,7 @@ li {
     float: right;
 }
 
+/*-- to fix bug where a link got a blue line when clicked --*/
 a,
 a:hover,
 a:active,
