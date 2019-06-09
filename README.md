@@ -6,6 +6,7 @@ First milestone project; User-centric frontend development - Full stack software
 This website is made for Sure Custom Cues, a small pool cue making business located in Cologne, Germany. The website has five pages using various technologies.
 The website includes information about the company and its history, innovations it has made as well as custom cues for sale and a gallery showcasing cues.
 
+![image of homepage]("assets/images/homepage.png")
 
 
 UX
