@@ -11,13 +11,7 @@ The website includes information about the company and its history, innovations 
 ## UX
 
 The goal of the website is to give visitors a clear image of the work that Sure Custom Cues does. On every page, there's a bar at the top with 
-contact information of the business and links to its social media accounts. The website has five pages;
-
-1. Homepage: Introduces the company and has an automatic slide show with images of cues.
-1. About page: Explains the philosophy and tells the story of the company.  
-1. Innovations page: Gives an overview of all innovations developed by Sure Custom Cues.
-1. Custom cues page: Gives and overview of the custom cues currently for sale and a gallery of cues made.
-1. Impressum: An overview of information about the company in order to comply with German law.
+contact information of the business and links to its social media accounts.
 
 The goal of the design was to make it easy for visitors to find and access any part of the website. The dark background and light text in modern font
 was chosen to create a modern style. This was one of the wishes of Andreas Sure, director of Sure Custom Cues. 
@@ -27,6 +21,13 @@ I started by creating a mock-up using [Wix](https://ivarsaris.wixsite.com/mysite
 ## Features
 
 On top of each page is a bar with the contact information of the company and links to its social media accounts. The homepage features a slide show created with a keyframes query in CSS. 
+
+The website has five pages:
+1. Homepage: Introduces the company and has an automatic slide show with images of cues.
+1. About page: Explains the philosophy and tells the story of the company.  
+1. Innovations page: Gives an overview of all innovations developed by Sure Custom Cues.
+1. Custom cues page: Gives and overview of the custom cues currently for sale and a gallery of cues made.
+1. Impressum: An overview of information about the company in order to comply with German law. This page is linked to only from the homepage.
 
 Several images, including the gallery images, increase in size when they are hovered. This was achieved by using the transform function in CSS.
 
