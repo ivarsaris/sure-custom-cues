@@ -6,7 +6,7 @@
 This website is made for Sure Custom Cues, a small pool cue making business located in Cologne, Germany. The website has five pages using various technologies.
 The website includes information about the company and its history, innovations it has made as well as custom cues for sale and a gallery showcasing cues.
 
-![image of homepage](https://github.com/ivarsaris/sure-custom-cues/blob/develop/assets/images/homepage.png)
+![image of homepage](https://github.com/ivarsaris/sure-custom-cues/blob/master/assets/images/homepage.png)
 
 ## UX
 
@@ -52,6 +52,23 @@ The following technologies were used in order to create the website;
 
 The website achieves the goal set out. To give visitors a clear image of the work that Sure Custom Cues does. As well as showcasing what Sure Custom Cues
 offers for sale. 
+  
+  
+Run
+Run Config Name
+Command:
+README.md
+Runner: Shell command
+CWD
+ENV
+
+Full Linux terminal
+With full sudo access in the terminal, you can create files, run code, and install software. Open a new terminal at any time with Alt-T.
+
+Pro Tip: Your workspace layout is fully customizable, making split screen simple. Try dragging this terminal tab and dropping it all over the screen. This works for many tabs and many layouts.
+
+More about the Terminal
+
 
 For the visitor it's easy to access any part of the website. The pages give a clear image of what the company does,
 and offers for sale. The contact information can be seen on every page, as well as a link to its social media platforms. A visitor that's interested in the 
@@ -73,8 +90,10 @@ innovations link, the menu is displayed shortly, then the innovations page opens
 
 ## Deployment
 
-The website is hosted using Github pages. It was deployed from the developer branche. 
-
+The website is hosted using Github pages. It was deployed from the master branche. I worked on the developer branche and merged 
+with the master branche. So I can keep working on the developer branche while the project is assessed. There are no differences
+between the development code and the deployed code. The deployed website will update automatically when there's a new commit to the master
+branch. The website will only deploy correctly if the landing page is named _**index.html**_
 
 ## credits
 
