@@ -6,7 +6,7 @@
 This website is made for Sure Custom Cues, a small pool cue making business located in Cologne, Germany. The website has five pages using various technologies.
 The website includes information about the company and its history, innovations it has made as well as custom cues for sale and a gallery showcasing cues.
 
-![image of homepage]("/assets/images/homepage.png")
+![image of homepage]("https://github.com/ivarsaris/sure-custom-cues/blob/develop/assets/images/homepage.png")
 
 ## UX
 
