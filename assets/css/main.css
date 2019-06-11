@@ -1,32 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Archivo:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------background picture------------------------*/
+/*-- background picture, taken from https://css-tricks.com/perfect-full-page-background-image/. modified to fit page. --*/
 
 body {
     background: url(/assets/images/bg-dark-60.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-color: #d3d3d3;
     background-size: cover;
     color: #f5f5f5;
 }
 
+/*------------------------------------header--------------------------------*/
 
-/*--------------------------------background colours------------------------*/
+/*-- contactinfo bar --*/
 
 .bg-color-contactinfo {
     background-color: #000000;
 }
 
-/*------------------------------------header--------------------------------*/
-
-/*-----------------------contactinfo bar ------------------------*/
-
 .contactinfo-bar {
-    height: 60px;
+    height: 53px;
     text-align: left;
-    font-family: 'Roboto';
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
     font-weight: 200;
     display: inline-block;
 }
@@ -42,12 +40,13 @@ body {
 }
 
 .contactinfo-links {
-    margin-top: 15px;
+    margin-top: 10px;
     color: #fafafa;
+    font-size: 20px;
 }
 
 .contactinfo-links a {
-    margin-right: 3%;
+    margin-right: 5%;
     color: inherit;
 }
 
@@ -56,29 +55,27 @@ body {
     text-decoration: none;
 }
 
-.contactinfo-links a i {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
+/*-- gets contactinfo nicely on top of each other on smaller screen --*/
 @media (max-width: 576px) {
     .contactinfo-items {
         margin-top: 7px;
         font-size: 14px;
     }
-    .contactinfo-links {
-        margin-top: 5px;
-        text-align: left;
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .contactinfo-items {
+        padding-right: 0;
+        padding-left: 11px;
     }
 }
 
-
-/*-----------------------title ------------------------*/
+/*-- title --*/
 
 .logo-and-title {
-    font-family: 'CHANTELLI ANTIQUA';
+    font-family: 'Archivo', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     text-align: left;
     color: #74A919;
     padding-left: 5%;
@@ -99,20 +96,26 @@ body {
     }
 }
 
-/*-----------------------navbar ------------------------*/
+/*-- navbar --*/
+
+.navigation-row {
+    background-color: rgba(40, 40, 40, 0.5);
+}
 
 .navbar {
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Roboto';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    width: 240px;
+    padding: 10px 0;
 }
-
 
 .navigation-link {
     color: #fafafa;
-    font-family: 'Roboto';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     border: none;
     display: inline-block;
@@ -131,19 +134,20 @@ body {
 .dropbtn {
     background-color: transparent;
     color: #fafafa;
-    font-family: 'Roboto';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     border: none;
+    text-decoration: none;
 }
 
 .dropdown-innovations-content {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 240px;
+    width: 240px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 5;
 }
 
 .dropdown-innovations-content a {
@@ -157,24 +161,42 @@ body {
 .dropdown-innovations-content a:hover {
     background-color: #D3D3D3;
     color: black;
+    text-decoration: none;
 }
 
 .dropdown:hover .dropdown-innovations-content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown .dropbtn:hover {
     color: #D3D3D3;
+    text-decoration: none;
 }
 
+@media (max-width: 576px) {
+    .navbar {
+        width: 140px;
+        font-size: 13px;
+    }
+}
 
+@media (min-width: 577px) and (max-width: 991px) {
+    .navbar {
+        width: 140px;
+        font-size: 16px;
+    }
+    .dropdown-innovations-content {
+        width: 240px;
+        font-size: 16px;
+        margin-left: -50px;
+    }
+}
 
-/*------------------------------------content all pages--------------------------------*/
-
+/*--------------------------content all pages--------------------------*/
 
 .title {
-    font-family: 'Roboto';
-    font-size: 26px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 24px;
     font-weight: 400;
     color: #74A919;
 }
@@ -183,6 +205,7 @@ body {
     text-align: justify;
 }
 
+/*-- used to add space to pages --*/
 .spacing1 {
     width: 100%;
     height: 20px;
@@ -196,36 +219,43 @@ body {
 /* -- footer-- */
 
 .copyright {
-    font-family: "Roboto";
-    font-size: 10;
+    font-family: "Open Sans";
+    font-size: 12px;
     font-weight: 200;
     color: #f5f5f5;
+}
+
+/* -- to make sure footer goes to bottom of screen on larger devices-- */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .footer {
+        margin-top: 250px;
+    }
 }
 
 /*------------------------------------main--------------------------------*/
 
 .main-heading {
-    font-family: 'CHANTELLI ANTIQUA';
-    font-weight: 600;
-    font-size: 60px;
+    font-family: 'Archivo', sans-serif;
     text-align: center;
     color: #74A919;
     margin-top: 20px;
 }
 
-/*--------------slideshow --------------*/
+/*-- slideshow --*/
+
+/*-- taken from https://www.hyde-design.co.uk/joomla-bites/80-create-a-css-slide, modified to fit page --*/
 
 .wrapper-fling-minislide {
-    width: 70%;
-    margin-left: 15%;
-    margin-bottom: 100px;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 90px;
     border: 1px solid #666;
 }
 
 .fling-minislide {
     width: 100%;
     height: 0px;
-    padding-bottom: 50%;
+    padding-bottom: 70%;
     overflow: hidden;
     position: relative;
 }
@@ -263,14 +293,16 @@ body {
     animation-delay: 15s;
 }
 
-@media (max-width: 992px) {
+/*-- to fit smaller screens --*/
+
+@media (max-width: 991px) {
     .wrapper-fling-minislide {
         width: 70%;
         margin-left: 15%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .wrapper-fling-minislide {
         width: 80%;
         margin-left: 10%;
@@ -284,13 +316,28 @@ body {
     }
 }
 
-/*--------------------------------about ------------------------*/
+/*-------------------------------- about ------------------------*/
 
 .about-image {
-    width: 220px;
-    height: 190px;
+    width: 230px;
+    height: 180px;
+    margin-top: 40px;
 }
 
+/*-- to make sure history image and text are aligned --*/
+@media (min-width: 768px) {
+    .row-philosophy {
+        height: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .row-philosophy {
+        height: 300px;
+    }
+}
+
+/*-- so images go next to each other on smaller screen --*/
 @media (max-width: 576px) {
     .about-image {
         width: 200px;
@@ -307,38 +354,15 @@ body {
 
 /*--------------------------------innovations ------------------------*/
 
+/*-- so images are horizontally alligned on larger screens --*/
 .container-shafts {
-    height: 100px;
+    height: 150px;
     width: auto;
-}
-
-.media img {
-    height: 200px;
-    width: auto;
-    margin: 10px;
-}
-
-.shafts {
-    font-family: 'Roboto';
-    font-size: 16px;
-    font-weight: 300;
-    margin: 10px;
-}
-
-.shaft-description {
-    font-family: 'Roboto';
-    font-size: 16px;
-    font-weight: 300;
+    margin-top: 20px;
 }
 
 .shaft-type {
     color: #d3d3d3;
-}
-
-#link-to-top {
-    font-family: 'Roboto';
-    font-size: 16px;
-    margin: 10px;
 }
 
 .anchor-link {
@@ -353,29 +377,35 @@ body {
 
 .innovations-image {
     margin-right: 10px;
-    margin-bottom: 10px;
-    width: 220px;
-    height: 190px;
+    width: 240px;
+    height: 180px;
 }
 
-.gallery-innovations img {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    float: left;
-    height: 190px;
-    width: 220px;
-    transition: .3s ease-out;
+.paragraph a {
+    color: #fafafa;
+    text-decoration: underline;
 }
 
-.gallery-innovations img:hover {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -o-transform: scale(2);
+.paragraph a:hover {
+    color: #d3d3d3;
 }
 
-.break-jump-image {
-    height: 190px;
-    width: 160px;
+ul {
+    padding-inline-start: 20px;
+}
+
+li {
+    text-align: justify;
+}
+
+.dealer-inquiries {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.spc-tip-name {
+    font-size: 12px;
 }
 
 /*--------------------------------custom ------------------------*/
@@ -389,37 +419,72 @@ body {
     width: auto;
 }
 
-.slider {
-    height: 180px;
-    width: 240px;
-    position: relative;
-}
-
-.slider ul {
-    height: 180px;
-    width: 240px;
-    position: relative;
-    list-style: none outside none;
-    overflow: hidden;
-}
-
 .gallery img {
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     float: left;
     height: 180px;
     width: 240px;
     transition: .3s ease-out;
+    position: relative;
+    z-index: 2;
 }
 
 .gallery img:hover {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -o-transform: scale(2);
+    position: relative;
+    z-index: 3;
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+}
+
+/*-- To make sure images are centered on smaller screens --*/
+@media (max-width: 767px) {
+    .spc-tip-name {
+        margin-left: 25%;
+    }
+    .gallery img {
+        margin-left: 25%;
+        margin-top: 8px;
+    }
+    .gallery img:hover {
+        position: relative;
+        z-index: 3;
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        -o-transform: scale(1.4);
+    }
+}
+
+@media (max-width: 576px) {
+    .spc-tip-name {
+        margin-left: 20%;
+    }
+    .gallery img {
+        margin-left: 20%;
+        margin-top: 8px;
+    }
+}
+    
+@media (max-width: 476px) {
+    .spc-tip-name {
+        margin-left: 10%;
+    }
+    .gallery img {
+        margin-left: 10%;
+        margin-top: 8px;
+    }
 }
 
 .impressum-list {
     padding-inline-start: 40px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.impressum-header {
+    color: #d3d3d3;
 }
 
 .copyright a {
@@ -435,4 +500,15 @@ body {
 
 .right {
     float: right;
+}
+
+/*-- to fix bug where a link got a blue line when clicked --*/
+a,
+a:hover,
+a:active,
+a:focus,
+a img,
+object,
+embed {
+    outline: none;
 }
