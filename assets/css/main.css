@@ -3,11 +3,11 @@
 /*-- background picture, taken from https://css-tricks.com/perfect-full-page-background-image/. modified to fit page. --*/
 
 body {
-    background: url(/assets/images/bg-dark-60.jpg) no-repeat center center fixed;
+    background: url(../images/bg-dark-60.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-color: #d3d3d3;
+    background-color: #323232;
     background-size: cover;
     color: #f5f5f5;
 }
